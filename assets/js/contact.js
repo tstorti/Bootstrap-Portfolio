@@ -9,7 +9,7 @@ jQuery(document).ready( function ($)  {
 
         // if the validator does not prevent form submit
         if (!e.isDefaultPrevented()) {
-            var url = "http://www.tonystorti.com//contact.php";
+            var url = "http://www.tonystorti.com/contact.php";
             console.log($(this).serialize());
             // POST values in the background the the script URL
             $.ajax({
